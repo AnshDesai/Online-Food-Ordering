@@ -4,19 +4,8 @@
   - Database Server: PostgreSQL 12.3
   
 **How to run:**
- - Clone the [github repo](https://github.com/Subangkar/Foodsquare-Web-App)
- - Now you can either run in [docker containers](https://www.docker.com/) of a [pre-built image on docker hub](https://hub.docker.com/r/subangkar/foodsquare) of this repo **or** create an python & database environment yourself
-    - **Docker**
-        - install [docker](https://docs.docker.com/engine/install/) & [docker-compose](https://docs.docker.com/compose/install/) on your system (if not installed)
-        - move to the project directory & start the docker containers using the following commands
-        ```shell
-        docker-compose build
-        docker-compose up
-        ```
-        - now browse the site at http://localhost:8000/ 
-        - **N.B.** Here [remote docker image](https://hub.docker.com/r/subangkar/foodsquare) is used in docker compose. Alternately, you can build a new docker image using `Dockerfile` & use it in composer.
-
-    - Or, **Python Environment/Database setup**
+ - Clone the [github repo]([https://github.com/AnshDesai/Online-Food-Ordering])
+**Python Environment/Database setup**
         - install postgres database
         - create a new database in your postgres server named `foodsquare` with owner as `postgres`, password as  `postgres`   
         - start the postgres server on port 5432 
@@ -55,30 +44,20 @@
 - Online Payment Handling
 - Review-Rating Management
 
-Docker Hub Repo: https://hub.docker.com/r/subangkar/foodsquare
-
 ***
-
 ## Sample Usage:
-***Homepage*** ![Homepage](https://raw.githubusercontent.com/Subangkar/Foodsquare-Web-App/master/Foodsquare_Screenshots/website_homepage.png?token=AHSCFFTRYRD66DB3CGMUMKK7HAKDY)
-
-
-
-
 
 ***Browse Cuisines***
-![Browse Cuisines](https://raw.githubusercontent.com/Subangkar/Foodsquare-Web-App/master/Foodsquare_Screenshots/filter.png?token=AHSCFFUMKSH2Z5K6QVYXGOC7HALZW)
+![Browse Cuisines](https://github.com/AnshDesai/Online-Food-Ordering/blob/master/Foodsquare_Screenshots/filter.png)
 
 ***Payment***
 
-<img src="https://raw.githubusercontent.com/Subangkar/Foodsquare-Web-App/master/Foodsquare_Screenshots/bkash.png?token=AHSCFFTSZANDZAQZ5BJ6GUC7HAN5G" alt="Payment" width="500" height="400"/>
+<img src="https://github.com/AnshDesai/Online-Food-Ordering/blob/master/Foodsquare_Screenshots/bkash.png" alt="Payment" width="500" height="400"/>
 
 ***Branch Open***
-![Branch Open](https://raw.githubusercontent.com/Subangkar/Foodsquare-Web-App/master/Foodsquare_Screenshots/rest_branch_reg.png?token=AHSCFFSFY4IOR3WV7VFXAJ27HALL4)
+![Branch Open](https://github.com/AnshDesai/Online-Food-Ordering/blob/master/Foodsquare_Screenshots/rest_branch_reg.png)
 ***Add Items***
-![Add Items](https://raw.githubusercontent.com/Subangkar/Foodsquare-Web-App/master/Foodsquare_Screenshots/additem.png?token=AHSCFFQ2SC7HM7GV5FJBBEC7HALMK)
-
-
+![Add Items](https://github.com/AnshDesai/Online-Food-Ordering/blob/master/Foodsquare_Screenshots/additem.png)
 
 ***Manage and Accept Orders***
-![Manage and Accept Orders](https://raw.githubusercontent.com/Subangkar/Foodsquare-Web-App/master/Foodsquare_Screenshots/accept_branch.png?token=AHSCFFUV6AGWFLXQIMFCX427HAMPG)
+![Manage and Accept Orders](https://github.com/AnshDesai/Online-Food-Ordering/blob/master/Foodsquare_Screenshots/accept_branch.png)
